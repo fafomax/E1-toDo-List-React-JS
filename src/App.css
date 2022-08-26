@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Karla:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #f1eee9;
+  background: rgb(1, 51, 84);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(1, 51, 84, 1) 0%,
+    rgba(1, 111, 185, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(1, 51, 84, 1) 0%,
+    rgba(1, 111, 185, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(1, 51, 84, 1) 0%,
+    rgba(1, 111, 185, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#013354",endColorstr="#016fb9",GradientType=1);
+  font-family: "Karla", sans-serif;
+  margin-top: 2.5em;
+}
+
+h1 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.toDoList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo to Do */
+.logo-container-toDoList {
+  width: 100%;
+  margin: 1.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-toDoList {
+  width: 12em;
+  height: 12em;
+}
+
+/* Lista de Tareas */
+.tareas-lista-principal {
+  width: 37.5em;
+  min-height: 31.25em;
+  background: rgb(40, 40, 55);
+  background: linear-gradient(
+    344deg,
+    rgba(40, 40, 55, 1) 0%,
+    rgb(34, 45, 77) 50%
+  );
+  box-shadow: 4px 6px 14px #00000036;
+  border-radius: 5px;
+  color: #f9f9f9;
+  padding: 16px;
+  padding: 1.56em;
+  margin: 0.7em;
+  justify-content: center;
+}
